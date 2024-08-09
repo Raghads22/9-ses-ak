@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    /* background-color: rgb(92, 92, 92); */
+    height: 6000px;
+}
+
+.navbar{
+    background-color: rgb(70, 68, 68);
+    position: sticky;
+    top: 0;
+}
+
+.container{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.navbar .logo {
+    width: 30%;
+}
+
+.navbar .logo img{
+    width: 220px;
+}
+
+.list{
+    flex-grow: 1;
+}
+
+.navbar .list ul{
+    list-style-type: none;  /* بتشيل الترقيم*/
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.list ul a{
+    text-decoration: none;  /* بتشيل الخط */
+    color: white;
+    font-size: 19px;
+}
+
+.header{
+    background-color: rgb(53, 49, 49);
+    color: white;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+
+}
+
+.header .content{
+    background-color: rgb(112, 112, 112);
+    padding: 46px;
+    border-top: 7px solid red;
+}
+
+
